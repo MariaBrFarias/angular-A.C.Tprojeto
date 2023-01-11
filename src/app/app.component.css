@@ -1,0 +1,65 @@
+* styling navlist */
+    #navlist {
+        background-color: #0074D9;
+        position: absolute;
+        width: 100%;
+    }
+          
+    /* styling navlist anchor element */
+    #navlist a {
+        float:left;
+        display: block;
+        color: #022001;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+      
+    .navlist-right{
+        float:right;
+    }
+  
+    /* hover effect of navlist anchor element */
+    #navlist a:hover {
+        background-color:#088004;
+        color: black;
+    }
+          
+    /* styling search bar */
+    .search input[type=text]{
+        width:300px;
+        height:25px;
+        border-radius:25px;
+        border: none;
+    }
+          
+    .search{
+        float:right;
+        margin:7px;
+    }
+          
+    .search button{
+        background-color: #0074D9;
+        color: #025951;
+        float: right;
+        padding: 5px 10px;
+        margin-right: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    } 
+
+    .banner {
+        background-position:center ;
+        background-size :cover;
+        color : black;
+        background-color: rgba(23,45,65,78) ;
+        background-image: linear-gradient(180deg, #000000, #025951, #02735E, #038C3E);
+        border-radius: 5px;
+        height:600px  ;
+    }
+
+    .content{
+text-align: center;
+    }
